@@ -1,0 +1,36 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+	<div class="col-md-12">
+        <div ng-controller="PageCtrl" class="navbar-header">
+              <div class="ng-scope" >
+                <img WIDTH="35" HEIGHT="35" src="pics/uk-flag.png" ng-click="changeLanguage('en')" />
+				<img WIDTH="35" HEIGHT="35" src="pics/greece-flag.png" ng-click="changeLanguage('el')" />
+                <img WIDTH="35" HEIGHT="35" src="pics/poland-flag.png" ng-click="changeLanguage('en')" />
+								
+              </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/home">{{ 'HOME' | translate }}</a>
+                </li>
+                <li><a href="#/services">{{ 'SERVICES' | translate }}</a>
+                </li>
+				<li><a href="#/accreditation">{{ 'ACCREDITATION' | translate }}</a>
+                </li>				
+				<li><a href="#/certified">{{ 'CERTIFIED' | translate }}</a>
+                </li>
+                <li><a href="#/useful">{{ 'USEFUL' | translate }}</a>
+                </li>					
+                <li><a href="#/research">{{ 'RESEARCH' | translate }}</a>
+                </li>			
+				<li><a href="#/contact">{{ 'CONTACT' | translate }}</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+	</div>
+    <!-- /.container -->
+</nav>

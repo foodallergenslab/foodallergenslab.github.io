@@ -1,0 +1,22 @@
+<div class="container">
+   <div class="row">
+   
+<div id="carousel" class="carousel slide">
+
+    <!-- Wrapper for slides -->
+	
+	  <div ng-controller="PageCtrl" id="slides_control">
+		<div>
+		  <carousel interval="myInterval">
+			<slide ng-repeat="slide in slides" active="slide.active">
+			  <img ng-src="{{slide.image}}">
+			  <div class="carousel-caption">
+				<p>{{slide.text | translate}}</p>
+			  </div>
+			</slide>
+		  </carousel>
+		</div>
+	  </div>
+</div>
+</div>
+</div>
