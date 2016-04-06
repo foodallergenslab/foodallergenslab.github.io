@@ -12,24 +12,55 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right dropdown">
                 <li><a href="#/home">{{ 'HOME' | translate }}</a>
                 </li>
-				<li><a href="#/news">{{ 'NEWS' | translate }}</a>
-                </li>
-                <li><a href="#/services">{{ 'SERVICES' | translate }}</a>
-                </li>
-				<li><a href="#/accreditation">{{ 'ACCREDITATION' | translate }}</a>
+                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#/company">{{ 'COMPANY' | translate }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#company1">{{ 'COMPANY1' | translate }}</a></li>
+					  <li><a href="#company2">{{ 'COMPANY2' | translate }}</a></li>
+					  <li><a href="#company3">{{ 'COMPANY3' | translate }}</a></li>
+					  <li><a href="#company4">{{ 'COMPANY4' | translate }}</a></li>
+					</ul>				
                 </li>				
-				<!--li><a href="#/certified">{{ 'CERTIFIED' | translate }}</a>
+				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#/news">{{ 'NEWS' | translate }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#news1">{{ 'NEWS1' | translate }}</a></li>
+					  <li><a href="#news2">{{ 'NEWS2' | translate }}</a></li>
+					  <li><a href="#news3">{{ 'NEWS3' | translate }}</a></li>
+					  <li><a href="#news4">{{ 'NEWS4' | translate }}</a></li>
+					  <li><a href="#news5">{{ 'NEWS5' | translate }}</a></li>					  
+					</ul>
                 </li>
-                <li><a href="#/useful">{{ 'USEFUL' | translate }}</a>
-                </li-->					
-                <li><a href="#/research">{{ 'RESEARCH' | translate }}</a>
-                </li>			
-				<li><a href="#/contact">{{ 'CONTACT' | translate }}</a>
+                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#/services">{{ 'SERVICES' | translate }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#services1">{{ 'SERVICES1' | translate }}</a></li>
+					  <li><a href="#services2">{{ 'SERVICES2' | translate }}</a></li>
+					  <li><a href="#services3">{{ 'SERVICES3' | translate }}</a></li>
+					  <li><a href="#services4">{{ 'SERVICES4' | translate }}</a></li>
+					  <li><a href="#services5">{{ 'SERVICES5' | translate }}</a></li>
+					  <li><a href="#services6">{{ 'SERVICES6' | translate }}</a></li>					  
+					</ul>					
                 </li>
-				<li><a href="#/about">{{ 'ABOUT' | translate }}</a>
+				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#/certification">{{ 'CERTIFICATION' | translate }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#certification1">{{ 'CERTIFICATION1' | translate }}</a></li>
+					  <li><a href="#certification2">{{ 'CERTIFICATION2' | translate }}</a></li>
+					  <li><a href="#certification3">{{ 'CERTIFICATION3' | translate }}</a></li>
+					  <li><a href="#certification4">{{ 'CERTIFICATION4' | translate }}</a></li>
+					  <li><a href="#certification5">{{ 'CERTIFICATION5' | translate }}</a></li>
+					  <li><a href="#certification6">{{ 'CERTIFICATION6' | translate }}</a></li>					  
+					</ul>				
+                </li>							
+				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#/contact">{{ 'CONTACT' | translate }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#contact1">{{ 'CONTACT1' | translate }}</a></li>
+					  <li><a href="#contact2">{{ 'CONTACT2' | translate }}</a></li>
+					  <li><a href="#contact3">{{ 'CONTACT3' | translate }}</a></li>
+					  <li><a href="#contact4">{{ 'CONTACT4' | translate }}</a></li>
+					  <li><a href="#contact5">{{ 'CONTACT5' | translate }}</a></li>
+					  <li><a href="#contact6">{{ 'CONTACT6' | translate }}</a></li>					  
+					</ul>					
                 </li>				
             </ul>
         </div>

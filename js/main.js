@@ -9,6 +9,7 @@ app.config(['$translateProvider', function($translateProvider) {
 	BUTTON_LANG_EN: 'english',
     BUTTON_LANG_DE: 'greek',
 	HOME:'Home',
+	COMPANY:'Company',	
 	NEWS:'News',
 	SERVICES:'Services',
 	ACCREDITATION:'accreditation',
@@ -20,19 +21,39 @@ app.config(['$translateProvider', function($translateProvider) {
 	LAB:"Laboratory ....",
 	ANAL:"Analysis with the latest ..."
   }).translations('el', {
-    TITLE: 'Επιτελους!',
-    MESSAGE: 'This app supports your ελληνικα!',
-	BUTTON_LANG_EN: 'english',
-    BUTTON_LANG_DE: 'greek',
-	HOME:'Εταιρία',
-	NEWS:'Νέα',
+	HOME:'Αρχική',
+	COMPANY:'Εταιρία',
+	COMPANY1:'Προφίλ',
+	COMPANY2:'Ιστορία',
+	COMPANY3:'Εργαστήρια',
+	COMPANY4:'Αποστολή-Όραμα-Αξίες-Κοινωνική Εταιρική Ευθύνη',
+	NEWS:'Νέα-Δραστηριοτητες',
+	NEWS1:'Νέα',
+	NEWS2:'Έρευνα',
+	NEWS3:'Εκθέσεις',
+	NEWS4:'Παρουσιάσεις',
+	NEWS5:'Συνέδρια κ.α.',	
 	SERVICES:'Υπηρεσίες',
-	ACCREDITATION:'Εξοπλισμός',
-	CERTIFIED:'Σεμιναρια',
-	RESEARCH:'Έρευνα',
-	USEFUL:'Δημοσιευματα',	
+	SERVICES1:'Εργαστηριακές Αναλύσεις',
+	SERVICES2:'Εξοπλισμός Ελέγχου Ποιότητας',
+	SERVICES3:'CRM & QuEChERS',	
+	SERVICES4:'Υπηρεσία Ελέγχου Ετικέτας',
+	SERVICES5:'Έρευνα & Ανάπτυξη',
+	SERVICES6:'Εκπαίδευσεις-Σεμινάρια',		
+	CERTIFICATION:'Πιστοποιήσεις',
+	CERTIFICATION1:'ISO',
+	CERTIFICATION2:'ΕΣΥΔ',
+	CERTIFICATION3:'ΕΟΦ',
+	CERTIFICATION4:'FEDIOL',
+	CERTIFICATION5:'FIL-IDF',
+	CERTIFICATION6:'IOOC',	
 	CONTACT:'Επικοινωνία',
-	ABOUT:'Σχετικά με εμας',
+	CONTACT1:'Λίστα εργαστηρίων',
+	CONTACT2:'Προσωπικό',
+	CONTACT3:'Γενικές Πληροφορίες',
+	CONTACT4:'Αποτελέσματα Αναλύσεων',
+	CONTACT5:'Εμπορικό Τμήμα',
+	CONTACT6:'Οικονομικό Τμήμα',	
 	LAB:"Εργαστηριακοί έλενχοι που ....",
 	ANAL:"Αναλύσεις με τον τελευταίο εργαστηριακό εξοπλισμό"
   });
@@ -48,14 +69,38 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Home
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
 	.when("/home", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+	.when("/company", {templateUrl: "partials/company.html", controller: "PageCtrl"})	
+	.when("/company1", {templateUrl: "partials/company1.html", controller: "PageCtrl"})	
+	.when("/company2", {templateUrl: "partials/company2.html", controller: "PageCtrl"})	
+	.when("/company3", {templateUrl: "partials/company3.html", controller: "PageCtrl"})	
+	.when("/company4", {templateUrl: "partials/company4.html", controller: "PageCtrl"})		
 	.when("/news", {templateUrl: "partials/news.html", controller: "PageCtrl"})
+	.when("/news1", {templateUrl: "partials/news1.html", controller: "PageCtrl"})
+	.when("/news2", {templateUrl: "partials/news2.html", controller: "PageCtrl"})
+	.when("/news3", {templateUrl: "partials/news3.html", controller: "PageCtrl"})
+	.when("/news4", {templateUrl: "partials/news4.html", controller: "PageCtrl"})
+	.when("/news5", {templateUrl: "partials/news5.html", controller: "PageCtrl"})
 	.when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
-	.when("/accreditation", {templateUrl: "partials/accreditation.html", controller: "PageCtrl"})	
-	.when("/certified", {templateUrl: "partials/certified.html", controller: "PageCtrl"})		
-	.when("/useful", {templateUrl: "partials/useful.html", controller: "PageCtrl"})	
-	.when("/research", {templateUrl: "partials/research.html", controller: "PageCtrl"})		
+	.when("/services1", {templateUrl: "partials/services1.html", controller: "PageCtrl"})
+	.when("/services2", {templateUrl: "partials/services2.html", controller: "PageCtrl"})
+	.when("/services3", {templateUrl: "partials/services3.html", controller: "PageCtrl"})
+	.when("/services4", {templateUrl: "partials/services4.html", controller: "PageCtrl"})
+	.when("/services5", {templateUrl: "partials/services5.html", controller: "PageCtrl"})
+	.when("/services6", {templateUrl: "partials/services6.html", controller: "PageCtrl"})	
+	.when("/certification", {templateUrl: "partials/certification.html", controller: "PageCtrl"})	
+	.when("/certification1", {templateUrl: "partials/certification1.html", controller: "PageCtrl"})
+	.when("/certification2", {templateUrl: "partials/certification2.html", controller: "PageCtrl"})
+	.when("/certification3", {templateUrl: "partials/certification3.html", controller: "PageCtrl"})
+	.when("/certification4", {templateUrl: "partials/certification4.html", controller: "PageCtrl"})
+	.when("/certification5", {templateUrl: "partials/certification5.html", controller: "PageCtrl"})
+	.when("/certification6", {templateUrl: "partials/certification6.html", controller: "PageCtrl"})
 	.when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})	
-	.when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})	
+	.when("/contact1", {templateUrl: "partials/contact1.html", controller: "PageCtrl"})
+	.when("/contact2", {templateUrl: "partials/contact2.html", controller: "PageCtrl"})
+	.when("/contact3", {templateUrl: "partials/contact3.html", controller: "PageCtrl"})
+	.when("/contact4", {templateUrl: "partials/contact4.html", controller: "PageCtrl"})
+	.when("/contact5", {templateUrl: "partials/contact5.html", controller: "PageCtrl"})
+	.when("/contact6", {templateUrl: "partials/contact6.html", controller: "PageCtrl"})	
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
