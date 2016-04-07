@@ -1,5 +1,5 @@
 var app = angular.module('foodallergenslabApp', [
-  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate'
+  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics'
 ]);
 
 
@@ -17,7 +17,7 @@ app.config(['$translateProvider', function($translateProvider) {
 /**
  * Configure the Routes
  */
-app.config(['$routeProvider', function ($routeProvider) {
+app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
   $routeProvider
     // Home
     .when("/", {templateUrl: "partials/el/home.html", controller: "PageCtrl"})
