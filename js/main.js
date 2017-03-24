@@ -1,10 +1,10 @@
 var app = angular.module('foodallergenslabApp', [
-  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics'
+  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics', 'ngSanitize'
 ]);
 
 
 app.config(['$translateProvider', function($translateProvider) {
-	$translateProvider.useSanitizeValueStrategy('escapeParameters');
+	$translateProvider.useSanitizeValueStrategy('sanitizeParameters');
     $translateProvider.preferredLanguage('el');// is applied on first load
     $translateProvider.useStaticFilesLoader({
         prefix: 'lng/locale-',// path to translations files
@@ -26,8 +26,7 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
             },controller: "PageCtrl"})	
 	.when("/:lng/home", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/home.html';
-            },controller: "PageCtrl"})
-	.when("/company", {templateUrl: "partials/company.html", controller: "PageCtrl"})	
+            },controller: "PageCtrl"})	
 	.when("/:lng/company1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/company1.html';
             },controller: "PageCtrl"})	
@@ -40,7 +39,9 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
 	.when("/:lng/company4", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/company4.html';
             },controller: "PageCtrl"})	
-	.when("/news", {templateUrl: "partials/news.html", controller: "PageCtrl"})
+	.when("/:lng/news0", {templateUrl: function(urlattr){
+                return 'partials/' + urlattr.lng + '/news0.html';
+            },controller: "PageCtrl"})	
 	.when("/:lng/news1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/news1.html';
             },controller: "PageCtrl"})	
@@ -62,7 +63,6 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
 	.when("/:lng/news7", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/news7.html';
             },controller: "PageCtrl"})	
-	.when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
 	.when("/:lng/services1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/services1.html';
             },controller: "PageCtrl"})	
@@ -80,11 +80,7 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
             },controller: "PageCtrl"})	
 	.when("/:lng/services6", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/services6.html';
-            },controller: "PageCtrl"})	
-	.when("/:lng/services7", {templateUrl: function(urlattr){
-                return 'partials/' + urlattr.lng + '/services7.html';
-            },controller: "PageCtrl"})	
-	.when("/certification", {templateUrl: "partials/certification.html", controller: "PageCtrl"})	
+            },controller: "PageCtrl"})		
 	.when("/:lng/certification1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/certification1.html';
             },controller: "PageCtrl"})	
@@ -108,8 +104,7 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
             },controller: "PageCtrl"})	
 	.when("/:lng/certification8", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/certification8.html';
-            },controller: "PageCtrl"})	
-	.when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})	
+            },controller: "PageCtrl"})		
 	.when("/:lng/contact1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/contact1.html';
             },controller: "PageCtrl"})	

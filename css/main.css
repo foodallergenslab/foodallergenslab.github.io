@@ -1,5 +1,6 @@
 BODY {
     background-color: #E6E1DE;
+ 
 }
 .myfooter{
         text-shadow: 0 -1px 0 rgba(0,0,0,.25);
@@ -20,9 +21,58 @@ a {
 }
 
 #footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    	position: fixed;
+    	bottom: 0;
+    	width: 100%;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
 	color: #E6E1DE;
+}
+#images {
+    	white-space: nowrap;
+    	text-align:center;
+}
+.mytables{
+        border: 1px solid black;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 100%;
+	
+}
+
+td,th {
+    height: 100px;
+    vertical-align: center;
+    border: 1px solid black;
+    text-align:center;
+}
+
+p{
+	line-height: 33px;
+}
+
+ul, ol{
+	line-height: 33px;
+}
+.page-header{
+	border-bottom: 1px solid #c0adad;
+}
+.navbar-inverse{
+	background-color: #8b63aa;
+	color:#fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #f5e8e8;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+a{
+color: #8b63aa;
 }

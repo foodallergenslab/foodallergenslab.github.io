@@ -1,8 +1,16 @@
+
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    
     <div class="container">
+
 	<div class="col-md-12" ng-controller="PageCtrl">
+	
         <div  class="navbar-header">
+	   
               <div class="ng-scope" >
+		<a href="#/{{lng}}/home"">
+		<img WIDTH="135" HEIGHT="100%" src="pics/logo.jpg"/>
+		</a>
                 <img WIDTH="35" HEIGHT="35" src="pics/uk-flag.png" ng-click="changeLanguage('en')" />
 				<img WIDTH="35" HEIGHT="35" src="pics/greece-flag.png" ng-click="changeLanguage('el')" />
                 <img WIDTH="35" HEIGHT="35" src="pics/poland-flag.png" ng-click="changeLanguage('pl')" />
@@ -25,6 +33,7 @@
                 </li>				
 				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#/news">{{ 'NEWS' | translate }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
+					  <li><a href="#/{{lng}}/news0">{{ 'NEWS0' | translate }}</a></li>
 					  <li><a href="#/{{lng}}/news1">{{ 'NEWS1' | translate }}</a></li>
 					  <li><a href="#/{{lng}}/news2">{{ 'NEWS2' | translate }}</a></li>
 					  <li><a href="#/{{lng}}/news3">{{ 'NEWS3' | translate }}</a></li>
@@ -42,7 +51,7 @@
 					  <li><a href="#/{{lng}}/services4">{{ 'SERVICES4' | translate }}</a></li>
 					  <li><a href="#/{{lng}}/services5">{{ 'SERVICES5' | translate }}</a></li>
 					  <li><a href="#/{{lng}}/services6">{{ 'SERVICES6' | translate }}</a></li>	
-					  <li><a href="#/{{lng}}/services7">{{ 'SERVICES7' | translate }}</a></li>					  
+					  					  
 					</ul>					
                 </li>
 				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#/certification">{{ 'CERTIFICATION' | translate }}<b class="caret"></b></a>
