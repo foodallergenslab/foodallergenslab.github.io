@@ -1,5 +1,5 @@
 var app = angular.module('foodallergenslabApp', [
-  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics'
+  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics', 'ngSanitize'
 ]);
 
 
