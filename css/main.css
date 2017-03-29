@@ -76,3 +76,12 @@ ul, ol{
 a{
 color: #8b63aa;
 }
+
+.well {
+        background-color: #f5f5f5;
+	border: 1px solid #3ecae1;
+	min-height: 100px;
+}
+
+
+
