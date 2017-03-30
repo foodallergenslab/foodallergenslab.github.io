@@ -75,6 +75,7 @@ ul, ol{
 }
 a{
 color: #8b63aa;
+
 }
 
 .well {
@@ -107,6 +108,10 @@ border:none;
     margin: 150px auto;
 }
 
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+
+    max-height: 100px;
+}
 
 
 
