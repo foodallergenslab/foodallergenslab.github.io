@@ -1,5 +1,5 @@
 var app = angular.module('foodallergenslabApp', [
-  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics', 'ngSanitize'
+  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics', 'ngSanitize', 'btford.markdown'
 ]);
 
 
@@ -113,6 +113,9 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
             },controller: "PageCtrl"})	
 	.when("/:lng/contact3", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/contact3.html';
+            },controller: "PageCtrl"})	
+	.when("/:lng/newslatest1", {templateUrl: function(urlattr){
+                return 'partials/' + urlattr.lng + '/newslatest1.html';
             },controller: "PageCtrl"})	
 
     // else 404
