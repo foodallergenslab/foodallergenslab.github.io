@@ -5,7 +5,7 @@ var app = angular.module('foodallergenslabApp', [
 
 app.config(['$translateProvider', function($translateProvider) {
 	$translateProvider.useSanitizeValueStrategy('sanitizeParameters');
-    $translateProvider.preferredLanguage('el');// is applied on first load
+    $translateProvider.preferredLanguage('en');// is applied on first load
     $translateProvider.useStaticFilesLoader({
         prefix: 'lng/locale-',// path to translations files
         suffix: '.json'// suffix, currently- extension of the translations
@@ -80,7 +80,16 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
             },controller: "PageCtrl"})	
 	.when("/:lng/services6", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/services6.html';
-            },controller: "PageCtrl"})		
+            },controller: "PageCtrl"})	
+	.when("/:lng/services7", {templateUrl: function(urlattr){
+                return 'partials/' + urlattr.lng + '/services7.html';
+            },controller: "PageCtrl"})	
+	.when("/:lng/services8", {templateUrl: function(urlattr){
+                return 'partials/' + urlattr.lng + '/services8.html';
+            },controller: "PageCtrl"})	
+	.when("/:lng/services9", {templateUrl: function(urlattr){
+                return 'partials/' + urlattr.lng + '/services9.html';
+            },controller: "PageCtrl"})	
 	.when("/:lng/certification1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/certification1.html';
             },controller: "PageCtrl"})	
@@ -127,7 +136,7 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
  * Controls all other Pages
  */
 app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translate /*$routeParams, $http */) {
-  $scope.lng = 'el';
+  $scope.lng = 'en';
 
   $scope.changeLanguage = function (key) {
     $translate.use(key);
