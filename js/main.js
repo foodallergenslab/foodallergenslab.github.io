@@ -5,7 +5,7 @@ var app = angular.module('foodallergenslabApp', [
 
 app.config(['$translateProvider', function($translateProvider) {
 	$translateProvider.useSanitizeValueStrategy('sanitizeParameters');
-    $translateProvider.preferredLanguage('en');// is applied on first load
+    $translateProvider.preferredLanguage('el');// is applied on first load
     $translateProvider.useStaticFilesLoader({
         prefix: 'lng/locale-',// path to translations files
         suffix: '.json'// suffix, currently- extension of the translations
@@ -136,7 +136,7 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
  * Controls all other Pages
  */
 app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translate /*$routeParams, $http */) {
-  $scope.lng = 'en';
+  $scope.lng = 'el';
 
   $scope.changeLanguage = function (key) {
     $translate.use(key);
