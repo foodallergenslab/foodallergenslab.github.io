@@ -48,43 +48,43 @@
 	"SERVICES9":"Φυλλάδια",	
 
 
-	"NEWS":"Νέα",
+	"NEWS":"News & Activities",
 
 
-	"NEWS0":"Νέα",
+	"NEWS0":"News",
 
 
-	"NEWS1":"Δραστηριοτητες",
+	"NEWS1":"Activities",
 
 
-	"NEWS2":"Έρευνα",
+	"NEWS2":"National and International Research Projects",
 
 
-	"NEWS3":"Εκδόσεις-Δημοσιεύσεις",
+	"NEWS3":"Textbooks & Publications in International Scientific Journals",
 
 
-	"NEWS4":"Προσκεκλημένοι Ομιλητές σε Ημερίδες και Συνέδρια",
+	"NEWS4":"Invited speakers at Conferences, Seminars and Workshops",
 
 
-	"NEWS5":"Παρουσιάσεις σε Εθνικά και Διεθνή Συνέδρια",	
+	"NEWS5":"Presentations in National and International Conferences",	
 
 
-	"NEWS6":"Σεμινάρια, Ενημερωτικά Άρθρα και Ομάδες Εργασίας",
+	"NEWS6":"Seminar, Informational Articles & Workshops",
 
 
-	"NEWS7":"Εκθέσεις",	
+	"NEWS7":"Exhibitions & Trade Shows",	
 
 
-	"CERTIFICATION":"Πιστοποιήσεις",
+	"CERTIFICATION":"Certifications",
 
 
-	"CERTIFICATION1":"ISO",
+	"CERTIFICATION1":"ISO (International Standard Organization)",
 
 
-	"CERTIFICATION2":"ΕΣΥΔ",
+	"CERTIFICATION2":"ESYD (National Accreditation System)",
 
 
-	"CERTIFICATION3":"ΕΟΦ",
+	"CERTIFICATION3":"EOF (National Drugs Agency)",
 
 
 	"CERTIFICATION4":"FEDIOL",
@@ -99,67 +99,67 @@
 	"CERTIFICATION7":"FRUITMONITORING (HDE LIST)",	
 
 
-	"CERTIFICATION8":"ΔΣΔΙ",
+	"CERTIFICATION8":"I.C.A.T",
 
 
-	"CONTACT":"Επικοινωνία",
+	"CONTACT":"Contact",
 
 
-	"CONTACT1":"Λίστα εργαστηρίων",
+	"CONTACT1":"Laboratories List",
 
 
-	"CONTACT2":"Προσωπικό",
+	"CONTACT2":"Staff & Associates in Greece, Cyprus and Poland",
 
 
-	"CONTACT3":"Γενικές Πληροφορίες",
+	"CONTACT3":"Information",
 
 
-	"HOME_SHOWMORE":"Περισσότερα",
+	"HOME_SHOWMORE":"Show more",
 
 
-	"HOME_IMG_TITLE1":"Αναλύσεις",
+	"HOME_IMG_TITLE1":"Laboratory Analysis",
 
 
-	"HOME_IMG_DESC1":"Με τέσσερα εργαστήρια σε Ελλάδα, Κύπρο και Πολωνία και διευρυμένο πεδίο διαπίστευσης, είμαστε σε θέση να σας προσφέρουμε πλήρη κάλυψη σε όλο το εύρος των ζητούμενων χημικών, ανοσοχημικών, μοριακών και μικροβιολογικών αναλύσεων σε τρόφιμα ποτά, ζωοτροφές, συμπληρώματα διατροφής, καλλυντικά, φάρμακα και περιβαλλοντικά δείγματα.",
-
-	
-	"HOME_IMG_TITLE2":"Εξοπλισμός",
+	"HOME_IMG_DESC1":"With four independent laboratories in Greece, Cyprus and Poland, and a     continuously expanded accreditation scope, we are able to offer you a wide     range of specialized chemical, immunochemical, molecular and     microbiological analyzes in food, beverages, animal feed, dietary     supplements, cosmetics, drugs and environmental samples. ",
 
 	
-	"HOME_IMG_DESC2":"Προμηθεύουμε κάθε είδους εξοπλισμό και αναλώσιμα εργαστηρίων με εξειδίκευση στα συστήματα ταχείας διάγνωσης μεγάλων και αξιόπιστων οίκων του εξωτερικού.",
+	"HOME_IMG_TITLE2":"Equipment & Consumables",
+
+	
+	"HOME_IMG_DESC2":"We can provide you any kind of laboratory equipment and consumable products     while at the same time we are specialized in rapid diagnostics tests     produced by reliable and well-known international firms.",
 
 
 	"HOME_IMG_TITLE3":"CRM - QuEChERS",
 
 
-	"HOME_IMG_DESC3":"Εξειδικευόμαστε στην παραγωγή πιστοποιημένων υλικών αναφοράς (CRM) και κρίσιμων υλικών QuEChERS για τις ανάγκες επικύρωσης και διενέργειας διαφόρων μεθόδων εργαστηριακών αναλύσεων.",
+	"HOME_IMG_DESC3":"We are specialized in the production Reference Materials (RFMs) with     specified values of certain parameters, for the validation and verification     of food allergens measurement methods. Also we produce QuEChERS products     for the analysis of several compounds like pesticides, pharmaceuticals,     mycotoxins, PAHs, etc.",
 
 
-	"HOME_IMG_TITLE4":"Έλεγχος Ετικέτας",
+	"HOME_IMG_TITLE4":"Labeling Control",
 
 
-	"HOME_IMG_DESC4":"Η υπηρεσία αυτή έγκειται στον έλεγχο της συμβατότητας των παρεχόμενων πληροφοριών επισήμανσης με τις αντίστοιχες απαιτήσεις της ισχύουσας νομοθεσίας της χώρας διάθεσης του προϊόντος.",
+	"HOME_IMG_DESC4":"Our Food-Law department provides full check for the compatibility of     labeling information provided with the relevant requirements of the     existing legislation in EU and USA. In the same frame we can also support     you with all the necessary tests for each case as well as with the     respective services where needed (portion sizes/ daily intake percentages)",
 
 
-	"HOME_IMG_TITLE5":"Σεμινάρια",
+	"HOME_IMG_TITLE5":"Trainings and Seminars",
 
 
-	"HOME_IMG_DESC5":"Το εξειδικευμένο προσωπικό της Food Allergens Lab με υπερ20ετή εμπειρία σε επαγγελματικές εκπαιδεύσεις αλλά και οι κατά περίπτωση προσκεκλημένοι εκπαιδευτές, είναι σε θέση να σας προσφέρουν άρτια οργανωμένες υπηρεσίες εκπαίδευσης σε ένα ευρύ φάσμα θεματολογίας με σεμινάρια που απευθύνονται τόσο σε εταιρίες και επαγγελματίες του χώρου τροφίμων & ποτών όσο και σε ανεξάρτητους ιδιώτες και σπουδαστές.",
+	"HOME_IMG_DESC5":"With over 20 years of experience in professional training the scientific     staff of the Food Allergens Lab is able to offer you well-organized     training services to a wide range of subjects with courses aimed at both     companies and professionals as well as at independent individuals and     students in the food &amp; beverage sectors.",
 
 
-	"HOME_IMG_TITLE6":"Υπηρεσίες Νομοθεσίας (R&D)",
+	"HOME_IMG_TITLE6":"Law Services, Research and Development",
 
 
-	"HOME_IMG_DESC6":"Παρέχουμε πλήρη και επικαιροποιημένη υποστήριξη σε όλα τα θέματα νομοθεσίας τροφίμων, ποτών και συμπληρωμάτων διατροφής, ενώ το άρτια εξειδικευμένο επιστημονικό μας προσωπικό συμμετέχει σε πληθώρα ερευνητικών προγραμμάτων επιχειρήσεων τροφίμων και ιδρυμάτων που αφορούν την ανάπτυξη νέων και καινοτόμων μεθόδων και προϊόντων.",
+	"HOME_IMG_DESC6":"We provide full and updated support in all food legislation issues,     regarding food, beverages and dietary supplements. Furthermore, our highly     qualified staff is involved in several research programs with enterprises     and institutions aiming at the development of new and innovative methods     and products in the food sector.",
 
 
-	"HOME_IMG_TITLE7":"Πιστοποιητικά",
+	"HOME_IMG_TITLE7":"Certificates",
 
 
-	"HOME_IMG_TITLE8":"Έντυπα",
+	"HOME_IMG_TITLE8":"Printed matter",
 
 
-	"HOME_IMG_TITLE9":"Φυλλάδια",
+	"HOME_IMG_TITLE9":"Leaflets",
 
 
 
@@ -247,7 +247,7 @@
 	"NEWS2_DESC":"<p>     The Food Allergens laboratories are constantly seeking to develop new     methods and expertise in food and beverages sector. In these terms we have     already successfully completed 14 research projects in collaboration with     leading research institutes and EU institutions. </p> <p>     <strong>1. </strong>     <strong>EUREKAINTERSTATEGREECE-SPAIN</strong>     (EIE - National Research Foundation of Greece) </p> <p>     ΄΄Detection and identification of the Koroneiki variety (Olea Europea var.     Microcarpaalba), on samples of extravirginoliveoil.΄΄ </p> <p>     <strong>2. </strong>     <strong>INTERSTATEGREECE-SPAIN-ITALY</strong>     (ΕΤΑΤ - Research and Technological Development Food Industry) </p> <p>     ΄΄International EQUAL Project in Food Section΄΄ </p> <p>     <strong>3. </strong>     <strong>ΠΑΒΕΤΝΕ</strong>     (University of Athens Medical School) </p> <p>     ΄΄Detection of Allergens in patients with unexplained clinical     manifestations of food allergy.΄΄ </p> <p>     <strong>4. </strong>     <strong>INTERSTATEGREECE-CYPRUS</strong> (Mediterranean Agronomic Institute of Chania &amp;GSLof Cyprus)    <strong></strong> </p> <p>     ΄΄Development of molecular biological method for assaying protein allergen     sesame food.΄΄ </p> <p>     <strong>5. </strong>     <strong>INTERSTATECYPRUS-ROMANIA</strong>     (GSL of Cyprus &amp; University of Bucharest)<strong></strong> </p> <p>     ΄΄Development of immunochemical detection method for Allergens and     Antioxidants in Wines.΄΄ </p> <p>     <strong>6. </strong>     <strong>INNOVATIONVOUCHER</strong>     (Agricultural University of Athens)<strong></strong> </p> <p>     ΄΄Determination of Polyphenols and Fat-soluble vitamins in oils.΄΄ </p> <p>     <strong>7. </strong>     <strong>ARCHIMEDES</strong>     (Catholic University of Portugal, TEI Athens)<strong></strong> </p> <p>     ΄΄Determination of vitamins and trace elements in Greek and Portuguese     Cheeses.΄΄ </p> <p>     <strong>8. </strong>     <strong>RESEARCHPROMOTIONFOUNDATION</strong>     (University of Nicosia&amp;Pittas Dairy)<strong></strong> </p> <p>     ΄΄Identification of different types of milk addedin Halloumi with     specialized molecular techniquesRT-PCR.΄΄ </p> <p>     <strong>9. </strong>     <strong>RESEARCHPROMOTIONFOUNDATION</strong>     (GSL of Cyprus, Agricultural University of Athens, ΤΕΙ of Thessaloniki,     University of Wienne)<strong></strong> </p> <p>     ΄΄Developing of an innovative product: Gluten-free bread.΄΄ </p> <p>     <strong>10. </strong>     <strong>SEE-ERA.NET PLUS </strong>     (NAGREF-GR, IMPR-SER, UKIM-FYR, FAZ-CRO)<strong></strong> </p> <p>     ΄΄ Conservation and Sustainable Exploitation of indigenous Medicinal and     Aromatic plants traditionally used in the SEE, WB countries. A model     approach for Sideritis spp. (Mountain tea).΄΄ </p> <p>     <strong>11. </strong>     <strong>BUSSINESPRODUCT</strong>     (GSL of Cyprus&amp; Open University of Nicosia)<strong></strong> </p> <p>     ΄΄ Ανάπτυξη Μεθόδων Ανίχνευσης Αλλεργιογόνων με Ανοσοχημικές και Μοριακές     Τεχνικές.΄΄ </p> <p>     <strong>12. </strong>     <strong>EMPLOYMENT</strong>     (Food Allergens Laboratory)<strong></strong> </p> <p>     ΄΄Development of Allergen Detection Methods with Immunochemical and     Molecular Techniques.΄΄ </p> <p>     <strong>13. </strong>     <strong>AURORA </strong>     (NCSR Demokritos, H&amp;S Technology Solutions SA, Theta Metrisis SA,     Provirom Ltd)<strong></strong> </p> <p>     ΄΄Ολοκληρωμένη Οπτοηλεκτρονική Πλατφόρμα Πυριτίου Υπερυψηλής Ευαισθησίας     για Επιτόπιες Περιβαλλοντολογικές Αναλύσεις.΄΄ </p> <p>     <strong>14. </strong>     <strong>MARSFP</strong>     <strong>7 </strong>     (INRA-FR, UMIL-IT, UNIBO-IT, USAMVB-RO, FGI-BU, MKU-TUR, NAGREF-GR,     CSIC-ESP, MENDELU-CZE, ADNID-FR, CEPIS-FR, CRPV-IT, BETA-TUR, JUGLANS-BU,     EFEVDSSL-ESP, KAR.I.F-GR)<strong></strong> </p> <p>     ΄΄ Marker Assisted Resistance to Sharka.΄΄ </p>",
 
 
-	"NEWS3_DESC1":"<p>Στελέχη της εταιρίας μας έχουν στο ενεργητικό τους πληθώρα δημοσιεύσεων σε επιστημονικά περιοδικά καθώς και εκδόσεις επιστημονικών συγγραμμάτων. Ενδεικτικά, μερικές από αυτές:</p>",
+	"NEWS3_DESC1":"<p>Executives of our company have a wealth of publications in scientific journals as well as publications of scientific writings. Indicatively, some of these:</p>",
 
 
 
@@ -270,10 +270,10 @@
 
 
 
-	"HOME_NEWSLATEST1":"<i>Με τέσσερα εργαστήρια σε Ελλάδα, Κύπρο και Πολωνία και διευρυμένο πεδίο διαπίστευσης, είμαστε σε θέση να σας προσφέρουμε πλήρη κάλυψη σε όλο το εύρος των ζητούμενων χημικών, ανοσοχημικών, μοριακών και μικροβιολογικών αναλύσεων σε τρόφιμα ποτά, ζωοτροφές, συμπληρώματα διατροφής, καλλυντικά, φάρμακα και περιβαλλοντικά δείγματα.</i>",
+	"HOME_NEWSLATEST1":"<i>latest news No1</i>",
 
 
-	"HOME_NEWSLATEST2":"<i>Με τέσσερα εργαστήρια σε Ελλάδα, Κύπρο και Πολωνία και διευρυμένο πεδίο διαπίστευσης, είμαστε σε θέση να σας προσφέρουμε πλήρη κάλυψη σε όλο το εύρος των ζητούμενων χημικών, ανοσοχημικών, μοριακών και μικροβιολογικών αναλύσεων σε τρόφιμα ποτά, ζωοτροφές, συμπληρώματα διατροφής, καλλυντικά, φάρμακα και περιβαλλοντικά δείγματα.</i>",
+	"HOME_NEWSLATEST2":"<i>latest news No2</i>",
 
 
 
