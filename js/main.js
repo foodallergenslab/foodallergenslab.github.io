@@ -17,7 +17,8 @@ app.config(['$translateProvider', function($translateProvider) {
 /**
  * Configure the Routes
  */
-app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
+app.config(['$routeProvider','$locationProvider', function ($routeProvider, $location) {
+  $location.hashPrefix('!');
   $routeProvider
     // Home
     .when("/", {templateUrl: "partials/el/home.html", controller: "PageCtrl"})
@@ -28,7 +29,7 @@ app.config(['$routeProvider', function ($routeProvider, $analyticsProvider) {
                 return 'partials/' + urlattr.lng + '/home.html';
             },controller: "PageCtrl"})	
 	.when("/:lng/company1", {templateUrl: function(urlattr){
-                return 'partials/' + urlattr.lng + '/company1.html';
+                return './partials/' + urlattr.lng + '/company1.html';
             },controller: "PageCtrl"})	
 	.when("/:lng/company2", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/company2.html';
