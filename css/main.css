@@ -112,6 +112,9 @@ border:none;
 
     max-height: 100px;
 }
+.col-md-4 {
+    max-height: 195px;
+}
 
 
 

@@ -9,11 +9,11 @@
 	   
               <div class="ng-scope" >
 		<a href="#!/{{lng}}/home"">
-		<img WIDTH="135" HEIGHT="100%" src="pics/logo.jpg"/>
+		<img WIDTH="135" HEIGHT="63" src="pics/logo.jpg"/>
 		</a>
-                <img WIDTH="35" HEIGHT="35" src="pics/uk-flag.png" ng-click="changeLanguage('en')" />
-				<img WIDTH="35" HEIGHT="35" src="pics/greece-flag.png" ng-click="changeLanguage('el')" />
-                <img WIDTH="35" HEIGHT="35" src="pics/poland-flag.png" ng-click="changeLanguage('pl')" />
+                <!--img WIDTH="25" HEIGHT="25" src="pics/uk-flag.png" ng-click="changeLanguage('en')" />
+		<img WIDTH="25" HEIGHT="25" src="pics/greece-flag.png" ng-click="changeLanguage('el')" />
+                <img WIDTH="25" HEIGHT="25" src="pics/poland-flag.png" ng-click="changeLanguage('pl')" /-->
 								
               </div>
         </div>
@@ -72,10 +72,18 @@
 					  <li><a href="#!/{{lng}}/contact2">{{ 'CONTACT2' | translate }}</a></li>
 					  <li><a href="#!/{{lng}}/contact3">{{ 'CONTACT3' | translate }}</a></li>					  
 					</ul>					
-                </li>				
+                </li>
+
+			
+		<li>
+		        <img WIDTH="25" HEIGHT="25" src="pics/uk-flag.png" ng-click="changeLanguage('en')" style="margin: 10px 3px 0px 80px; cursor:pointer;" />
+			<img WIDTH="25" HEIGHT="25" src="pics/greece-flag.png" ng-click="changeLanguage('el')" style="margin: 10px 3px 0px 3px; cursor:pointer;"/>
+		        <img WIDTH="25" HEIGHT="25" src="pics/poland-flag.png" ng-click="changeLanguage('pl')" style="margin: 10px 3px 0px 3px; cursor:pointer;"/>
+		</li>			
             </ul>
+	 </div>
+
         </div>
-        <!-- /.navbar-collapse -->
     </div>
 	</div>
     <!-- /.container -->
