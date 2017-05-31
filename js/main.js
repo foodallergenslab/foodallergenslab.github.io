@@ -40,9 +40,6 @@ app.config(['$routeProvider','$locationProvider', function ($routeProvider, $loc
 	.when("/:lng/company4", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/company4.html';
             },controller: "PageCtrl"})	
-	.when("/:lng/news0", {templateUrl: function(urlattr){
-                return 'partials/' + urlattr.lng + '/news0.html';
-            },controller: "PageCtrl"})	
 	.when("/:lng/news1", {templateUrl: function(urlattr){
                 return 'partials/' + urlattr.lng + '/news1.html';
             },controller: "PageCtrl"})	
