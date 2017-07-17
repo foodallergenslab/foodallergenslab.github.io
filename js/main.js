@@ -147,12 +147,82 @@ app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translat
 
   $scope.slides = [
     {
-      image: 'pics/hunting1.jpg',
-	  text: 'CAROUSEL1'
+      image: 'pics/distributors/1neogen.png'
     },
     {
-      image: 'pics/hunting2.jpg',
-	  text: 'CAROUSEL2'
+      image: 'pics/distributors/2labm.png'
+    },
+    {
+      image: 'pics/distributors/3biosan.png'
+    },
+    {
+      image: 'pics/distributors/4biomedal.png'
+    },
+    {
+      image: 'pics/distributors/5colo.png'
+    },
+    {
+      image: 'pics/distributors/6generon.png'
+    },
+
+    {
+      image: 'pics/distributors/7envirologix.png'
+    },
+    {
+      image: 'pics/distributors/8megazyme.jpg'
+    },
+    {
+      image: 'pics/distributors/9accumax.jpg'
+    },
+    {
+      image: 'pics/distributors/9ecotest.png'
+    },
+    {
+      image: 'pics/distributors/10astori-lab.jpg'
+    },
+    {
+      image: 'pics/distributors/11BiooScientific2.gif'
+    },
+
+    {
+      image: 'pics/distributors/12deltalab.png'
+    },
+    {
+      image: 'pics/distributors/13deltaohm.png'
+    },
+    {
+      image: 'pics/distributors/14lovibond1.jpg'
+    },
+    {
+      image: 'pics/distributors/15hanna.png'
+    },
+    {
+      image: 'pics/distributors/16ebro.png'
+    },
+    {
+      image: 'pics/distributors/17kern.png'
+    },
+
+    {
+      image: 'pics/distributors/18reagena.png'
+    },
+    {
+      image: 'pics/distributors/19phadebas.png'
+    },
+    {
+      image: 'pics/distributors/20sundial.gif'
+    },
+    {
+      image: 'pics/distributors/BiooScientific.jpg'
+    },
+    {
+      image: 'pics/distributors/biosan2.png'
+    },
+    {
+      image: 'pics/distributors/lovibond2.jpg'
+    },
+    {
+      image: 'pics/distributors/neogen2.png'
     }
   ];
 });

@@ -116,6 +116,22 @@ border:none;
     max-height: 195px;
 }
 
+div.c-wrapper{
+    width: 90%; /* for example */
+    margin: auto;
+}
 
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+/*width: 100%;  use this, or not */
+margin: auto;
+}
 
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
 
