@@ -5,6 +5,7 @@ BODY {
 .myfooter{
         text-shadow: 0 -1px 0 rgba(0,0,0,.25);
 	color: #E6E1DE;
+
 }
 .thumbnail{
 	background-color: #E6E1DE;
@@ -26,6 +27,7 @@ a {
     	width: 100%;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
 	color: #E6E1DE;
+	max-height: 30px;
 }
 #images {
     	white-space: nowrap;
@@ -134,4 +136,5 @@ margin: auto;
 .carousel-indicators {
   bottom:-50px;
 }
+
 
