@@ -159,9 +159,6 @@ app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translat
       image: 'pics/distributors/4biomedal.png'
     },
     {
-      image: 'pics/distributors/5colo.png'
-    },
-    {
       image: 'pics/distributors/6generon.png'
     },
 
@@ -183,16 +180,6 @@ app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translat
     {
       image: 'pics/distributors/11BiooScientific2.gif'
     },
-
-    {
-      image: 'pics/distributors/12deltalab.png'
-    },
-    {
-      image: 'pics/distributors/13deltaohm.png'
-    },
-    {
-      image: 'pics/distributors/14lovibond1.jpg'
-    },
     {
       image: 'pics/distributors/15hanna.png'
     },
@@ -211,15 +198,6 @@ app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translat
     },
     {
       image: 'pics/distributors/20sundial.gif'
-    },
-    {
-      image: 'pics/distributors/BiooScientific.jpg'
-    },
-    {
-      image: 'pics/distributors/biosan2.png'
-    },
-    {
-      image: 'pics/distributors/lovibond2.jpg'
     },
     {
       image: 'pics/distributors/neogen2.png'
