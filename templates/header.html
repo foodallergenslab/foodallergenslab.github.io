@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     
     <div class="container">
 
@@ -13,7 +13,7 @@
 		</a>						
               </div>
 
-	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseDiv" aria-expanded="false" aria-controls="collapseDiv">
 	      <span class="icon-bar"></span>
 	      <span class="icon-bar"></span>
 	      <span class="icon-bar"></span>
@@ -21,11 +21,11 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse" style="margin: 10px 0px 0px">
+        <div id="collapseDiv" class="navbar-collapse collapse" style="margin: 10px 0px 0px">
             <ul class="nav navbar-nav navbar-right dropdown">
                 <li><a href="#!/{{lng}}/home">{{ 'HOME' | translate }}</a>
                 </li>
-                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#!/company">{{ 'COMPANY' | translate }}<b class="caret"></b></a>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#!/company">{{ 'COMPANY' | translate }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 					  <li><a href="#!/{{lng}}/company1">{{ 'COMPANY1' | translate }}</a></li>
 					  <li><a href="#!/{{lng}}/company2">{{ 'COMPANY2' | translate }}</a></li>
@@ -33,7 +33,7 @@
 					  <li><a href="#!/{{lng}}/company4">{{ 'COMPANY4' | translate }}</a></li>
 					</ul>				
                 </li>				
-				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#!/news">{{ 'NEWS' | translate }}<b class="caret"></b></a>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#!/news">{{ 'NEWS' | translate }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 					  <li><a href="#!/{{lng}}/news1">{{ 'NEWS1' | translate }}</a></li>
 					  <li><a href="#!/{{lng}}/news2">{{ 'NEWS2' | translate }}</a></li>
@@ -44,7 +44,7 @@
 					  <li><a href="#!/{{lng}}/news7">{{ 'NEWS7' | translate }}</a></li>				  
 					</ul>
                 </li>
-                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#!/services">{{ 'SERVICES' | translate }}<b class="caret"></b></a>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#!/services">{{ 'SERVICES' | translate }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 					  <li><a href="#!/{{lng}}/services1">{{ 'SERVICES1' | translate }}</a></li>
 					  <li><a href="#!/{{lng}}/services2">{{ 'SERVICES2' | translate }}</a></li>
@@ -55,7 +55,7 @@
 					  					  
 					</ul>					
                 </li>
-				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#!/certification">{{ 'CERTIFICATION' | translate }}<b class="caret"></b></a>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#!/certification">{{ 'CERTIFICATION' | translate }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 					  <li><a href="#!/{{lng}}/certification1">{{ 'CERTIFICATION1' | translate }}</a></li>
 					  <li><a href="#!/{{lng}}/certification2">{{ 'CERTIFICATION2' | translate }}</a></li>
@@ -67,7 +67,7 @@
 					  <li><a href="#!/{{lng}}/certification8">{{ 'CERTIFICATION8' | translate }}</a></li>				  
 					</ul>				
                 </li>							
-				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#!/contact">{{ 'CONTACT' | translate }}<b class="caret"></b></a>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#!/contact">{{ 'CONTACT' | translate }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 					  <li><a href="#!/{{lng}}/contact1">{{ 'CONTACT1' | translate }}</a></li>
 					  <li><a href="#!/{{lng}}/contact2">{{ 'CONTACT2' | translate }}</a></li>
