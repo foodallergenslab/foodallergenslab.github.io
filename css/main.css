@@ -200,4 +200,7 @@ margin-right: 5px;
  position: relative; 
 }
 
+.page-header {
+ margin: 5px 0 10px; 
+}
 
