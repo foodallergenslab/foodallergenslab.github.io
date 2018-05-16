@@ -1,5 +1,5 @@
 var app = angular.module('foodallergenslabApp', [
-  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics', 'ngSanitize', 'btford.markdown'
+  'ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'angulartics', 'angulartics.google.analytics', 'ngSanitize', 'btford.markdown','ngCookies', 'angular-cookie-law'
 ]);
 
 
@@ -133,7 +133,7 @@ app.config(['$routeProvider','$locationProvider', function ($routeProvider, $loc
 /**
  * Controls all other Pages
  */
-app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translate /*$routeParams, $http */) {
+app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translate, $cookies /*$routeParams, $http */) {
   $scope.lng = 'el';
 
   $scope.changeLanguage = function (key) {
@@ -204,6 +204,7 @@ app.controller('PageCtrl', function ( $scope, $routeParams, $location, $translat
     }
   ];
 });
+
 		
 app.directive('myMap', function() {
     // directive link function
