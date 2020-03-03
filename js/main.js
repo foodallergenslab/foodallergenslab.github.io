@@ -259,6 +259,7 @@ app.directive('myMap', function() {
         
         setMarker(map, new google.maps.LatLng(35.3643708, 24.4820373), 'Κρήτη - Ελλάδα', 'Βιολί Χαράκι, Ρέθυμνο, ΤΚ 74100, Τηλ.: 2831024423');
         setMarker(map, new google.maps.LatLng(38.0695701, 23.7216978), 'Αθηνα - Ελλάδα', 'Βάρναλη Κ. 40, Ν. Ιωνία ,ΤΚ14231, Τηλ.: 2102712498');
+	setMarker(map, new google.maps.LatLng(40.5732396, 22.9617369), 'Θεσσαλονίκη - Ελλάδα', 'Θωμά Γαβριηλίδη 3, Καλαμαριά, ΤΚ 55132, Τηλ.: 2316016847');
         setMarker(map, new google.maps.LatLng(34.9313744, 33.5954297), 'Κύπρος', 'Καλοψίδας 38, Λιβάδια, TK 7060, Τηλ:+357 24669934');
 		setMarker(map, new google.maps.LatLng(52.2547529, 20.998372), 'Poland', '29B Żeromskiego str., Sochaczew 96-500 - Warsaw, Tel. +48 797 802 507');
 				
